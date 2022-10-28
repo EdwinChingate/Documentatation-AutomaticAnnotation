@@ -1,0 +1,32 @@
+\documentclass[headsepline,footsepline,footinclude=false,oneside,fontsize=11pt,paper=a4,listof=totoc,bibliography=totoc,DIV=12]{scrbook}
+\usepackage[utf8x]{inputenc}
+\usepackage[english]{babel}
+\usepackage{url}
+
+% for placeholder text
+\usepackage{lipsum}
+
+\newcommand*{\getTitle}{Manual for package 'AutomaticAnnotation'}
+\newcommand*{\getAuthor}{Edwin Chingate}
+
+
+%\newcommand*{\getURL}{https://github.com/EdwinChingate/AutomaticAnnotation}
+
+
+
+\begin{document}
+
+\selectlanguage{english}
+\input{Pages/Title}
+
+
+\tableofcontents{}
+
+
+\mainmatter{}
+\input{Chapters/Concept}
+\input{Chapters/Functions}
+
+
+
+\end{document}
