@@ -1,14 +1,31 @@
 \subsection{NewReduceSpecFindPeaks}
 \subsubsection{Description}
-\subsubsection{Arguments}
 
+NewReduceSpecFindPeaks clusters the peaks into groups by differences in the m/z ration using ponderated statistics and the Welch test to make sure the groups are different. Each group could correspond with a fragment.
+
+\subsubsection{Arguments}
 \begin{itemize}
-\item DFind
-\item Mat
+\item peaks
+\end{itemize}
+\subsubsection{Parameters}
+\begin{itemize}
+\item MinInt
+\item NoiseInt
+\item DischargeT
+\item Techo
+\item RelDis
+\item MinPoint
 \end{itemize}
 \subsubsection{Internal variables}
 \subsubsection{Used functions}
+\begin{itemize}
+\item PondMZStats
+\item WelchTest
+\end{itemize}
 \subsubsection{Output}
+\begin{itemize}
+\item SpectrumFragments %when describing the variables, include a sample table
+\end{itemize}
+
 \subsubsection{Usage}
-\subsubsection{Example}
 
