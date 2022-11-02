@@ -1,8 +1,32 @@
 \subsection{AnotateSpec}
 \subsubsection{Description}
+AnotateSpec looks for MS2 spectra in a dataset given the exact mass (MM) and retention time (RT), then it looks for all possible ions with similar mass as the identified fragments and the differences to validate if two fragments are consistent. Finally, AnotateSPec builds all the possible fragments networks and based on the grade it annotate the spectra.
 \subsubsection{Arguments}
+\begin{itemize}
+\item experiment
+\item MM
+\item RT
+\end{itemize}
+\subsubsection{Parameters}
+\begin{itemize}
+\item Save
+\item name
+\item ExpectedV
+\end{itemize}
 \subsubsection{Internal variables}
 \subsubsection{Used functions}
+\begin{itemize}
+\item FragSpacePos
+\item SelfConsistFrag
+\item MinEdges
+\item FragNetIntRes
+\item IndexLists
+\item AllNet
+\item GradeNet
+\end{itemize}
 \subsubsection{Output}
+\begin{itemize}
+\item AnSpec
+\end{itemize}
 \subsubsection{Usage}
 \subsubsection{Example}
