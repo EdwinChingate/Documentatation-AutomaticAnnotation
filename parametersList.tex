@@ -1,0 +1,16 @@
+SaveAnnotation #Bool variable to save the results .. probably this would change
+name #Name for the file where we want to save the final annotation
+ExpectedV # Those are the possible elements that I expect in my molecules #AtomicSubscripts
+MassVec # Contains the exact masses for the elements that I want to take into account
+Tres # m/z interval to consider when looking for the ions in the m/z difference in between the fragments
+MinTres #Minimum intensity that I expect to explain with my annotation... better to update the name
+error #the expected error for my m/z when looking for the different MS2
+errorT #The error in the RT when lookinf for the MS2
+MinInt # Threshold for a group to be considered as peak
+NoiseInt # Threshold for a signal to be consider as noise
+DischargeT # Maximum size of the confidence interval to tolerate
+RelDis # The minimum contribution in intensity before considering a peak
+MinPoints # Minimum number of point to consider when deffining a peak
+alpha #alpha value for the t-student test
+returnMat # return the matrix with all fragments that explain the difference between two fragments
+
