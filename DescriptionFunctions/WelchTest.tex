@@ -4,14 +4,23 @@
 WelchTest implements the Welch test into our MS2 dataset to check if two possible clusters of m/s are statistically different.
 \subsubsection{Arguments}
 \begin{itemize}
-\item Ds1
-\item Ds2
+\item PeakData1
+\item PeakData2
 \end{itemize}
 \subsubsection{Parameters}
 \begin{itemize}
 \item alpha
 \end{itemize}
 \subsubsection{Internal variables}
+\begin{itemize}
+\item Approval
+\item FreedomDegrees
+\item pValue
+\item stError1
+\item stError2
+\item t
+\item tref
+\end{itemize}
 \subsubsection{Output}
 \begin{itemize}
 \item WelchVec
