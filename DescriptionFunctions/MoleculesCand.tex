@@ -1,11 +1,11 @@
-\subsection{MoleculesCand}
+\subsection{MoleculesCand}\label{MoleculesCand}
 \subsubsection{Description}
-MoleculesCand provides a list of candidate ions for certain TargetM given an expected elemental composition (ExpectedV).
+MoleculesCand provides a list of candidate fragment ions for certain PeakMass.
 \subsubsection{Arguments}
 \begin{itemize}
 \item \hyperref[PeakMass]{PeakMass}
-\item RelInt
-\item Tres
+\item \hyperref[RelInt]{RelInt}
+\item \hyperref[ConfidenceInterval]{ConfidenceInterval}
 \end{itemize}
 \subsubsection{Internal variables}
 \subsubsection{Used functions}
@@ -16,7 +16,7 @@ MoleculesCand provides a list of candidate ions for certain TargetM given an exp
 \end{itemize}
 \subsubsection{Output}
 \begin{itemize}
-\item BestOnesFancy %Which is the DF with the full list of posible ions for certain mass within certain error
+\item \item \hyperref[SpacePossibleFragmentsFilteredDF]{SpacePossibleFragmentsFilteredDF}
 \end{itemize}
 \subsubsection{Usage}
 

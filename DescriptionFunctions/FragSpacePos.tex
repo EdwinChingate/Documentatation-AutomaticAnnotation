@@ -1,20 +1,20 @@
 \subsection{FragSpacePos}\label{FragSpacePos}
 \subsubsection{Description}
-FragSpecePos generates a table with all the fragments in a MS2 spectra in a dataset given the exact mass (MM) and the retention time (RT). It also includes a list with the possible ions whose mass fit in the confidence interal for each fragment.
+FragSpecePos generates a table with all the fragments in a MS2 spectra in a dataset given the exact mass (MM) and the retention time (RT). It also includes a list with the possible ions whose mass fit in the confidence interval for each fragment.
 \subsubsection{Arguments}
 \begin{itemize}
-\item experiment
-\item MM
-\item RT
+\item \item \hyperref[DataSetName]{DataSetName}
+\item \item \hyperref[PrecursorFragmentMass]{PrecursorFragmentMass}
+\item \item \hyperref[RT]{RT}
 \end{itemize}
 \subsubsection{Internal variables}
 \subsubsection{Used functions}
 \begin{itemize}
-\item GetMS2forFeature
-\item MoleculesCand
+\item \hyperref[GetMS2forFeature]{GetMS2forFeature}
+\item \hyperref[MoleculesCand]{MoleculesCand}
 \end{itemize}
 \subsubsection{Output}
 \begin{itemize}
-\item DF
+\item \hyperref[AllPeaksAllPossibleFragments]{AllPeaksAllPossibleFragments}
 \end{itemize}
 \subsubsection{Usage}
