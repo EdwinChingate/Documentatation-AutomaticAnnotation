@@ -3,23 +3,24 @@
 GetMS2forFeature looks for the MS2 spectra that could correspond to a specific feature given its exact mass and retention time.
 \subsubsection{Arguments}
 \begin{itemize}
-\item experiment
-\item MM
-\item RT
+\item \hyperref[DataSetName]{DataSetName}
+\item \hyperref[PrecursorFragmentMass]{PrecursorFragmentMass}
+\item \hyperref[RT]{RT}
 \end{itemize}
 \subsubsection{Parameters}
 \begin{itemize}
-\item error
-\item errorT
+\item \hyperref[MassError]{MassError}
+\item \hyperref[RTError]{RTError}
 \end{itemize}
 \subsubsection{Internal variables}
 \subsubsection{Used functions}
 \begin{itemize}
-\item NewReduceSpecFindPeaks
+\item \hyperref[NewReduceSpecFindPeaks]{NewReduceSpecFindPeaks}
+\item \hyperref[ChargeDataSet]{ChargeDataSet}
 \end{itemize}
 \subsubsection{Output}
 \begin{itemize}
-\item SpectrumFragments %when describing the variables, include a sample table
+\item \hyperref[SpectrumPeaks]{SpectrumPeaks} %when describing the variables, include a sample table
 \end{itemize}
 \subsubsection{Usage}
 

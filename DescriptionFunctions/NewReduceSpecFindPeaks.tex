@@ -5,25 +5,26 @@ NewReduceSpecFindPeaks clusters the peaks into groups by differences in the m/z 
 
 \subsubsection{Arguments}
 \begin{itemize}
-\item peaks
+\item \hyperref[RawSignals]{RawSignals}
 \end{itemize}
 \subsubsection{Parameters}
 \begin{itemize}
-\item MinInt
-\item NoiseInt
-\item DischargeT
-\item RelDis
-\item MinPoint
+\item \hyperref[ConfidenceIntervalTolerance]{ConfidenceIntervalTolerance}
+\item \hyperref[MinInttobePeak]{MinInttobePeak}
+\item \hyperref[MinRelIntCont]{MinRelIntCont}
+\item \hyperref[MinSignalstobePeak]{MinSignalstobePeak}
+\item \hyperref[NoiseTresInt]{NoiseTresInt}
 \end{itemize}
 \subsubsection{Internal variables}
 \subsubsection{Used functions}
 \begin{itemize}
-\item PondMZStats
-\item WelchTest
+\item \hyperref[PondMZStats]{PondMZStats}
+\item \hyperref[WelchTest]{WelchTest}
 \end{itemize}
 \subsubsection{Output}
 \begin{itemize}
-\item SpectrumFragments %when describing the variables, include a sample table
+
+\item \hyperref[SpectrumPeaks]{SpectrumPeaks} %when describing the variables, include a sample table
 \end{itemize}
 
 \subsubsection{Usage}
